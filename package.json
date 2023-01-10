@@ -4,9 +4,10 @@
   "description": "This is a sample api server in nodejs",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "npm run test"
   },
-  "author": "",
+  "author": "seventh8000@gmail.com",
   "license": "ISC",
   "repository": {
     "type": "git",
