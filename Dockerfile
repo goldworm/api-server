@@ -5,9 +5,9 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install
+RUN npm install --omit dev
 
-COPY . .
+COPY dist/index.js dist/utils.js ./
 
 EXPOSE 8080
 
